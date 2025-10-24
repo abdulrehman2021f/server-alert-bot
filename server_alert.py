@@ -122,8 +122,10 @@ ADMIN_TELEGRAM_ID = 8498390933
 
 
 # Files & system paths (Ubuntu)
-AUTH_LOG = "/var/log/auth.log"                      # SSH/auth log
-PG_LOG = "/var/log/postgresql/postgresql.log"       # optional
+# change this line in server_alert.py
+AUTH_LOG = "test_auth.log"   # use the included test_auth.log for local testing
+PG_LOG = "test_pg.log"       # optional, create a test file if needed
+
 # Monitoring thresholds
 CPU_THRESHOLD = 80.0    # percent
 MEM_THRESHOLD = 85.0    # percent
