@@ -1,5 +1,6 @@
-psutil
 aiohttp
+psutil
 requests
 python-telegram-bot==21.6
+nest_asyncio
 python-dotenv
